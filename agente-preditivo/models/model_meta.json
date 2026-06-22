@@ -1,0 +1,26 @@
+{
+  "nome": "Naive Bayes (Gaussiano)",
+  "acuracia": 0.975,
+  "sensibilidade": 0.3333,
+  "especificidade": 0.9915,
+  "precisao": 0.5,
+  "auc": 0.9922,
+  "features": [
+    "age",
+    "daily_social_media_hours",
+    "sleep_hours",
+    "screen_time_before_sleep",
+    "academic_performance",
+    "physical_activity",
+    "stress_level",
+    "anxiety_level",
+    "addiction_level",
+    "gender_enc",
+    "platform_enc",
+    "social_enc"
+  ],
+  "classes": {
+    "0": "Sem depressão",
+    "1": "Com depressão"
+  }
+}
